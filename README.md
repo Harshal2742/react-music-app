@@ -1,4 +1,4 @@
-# React Music App
+# React Music player
 
 ## Screenshots
 
