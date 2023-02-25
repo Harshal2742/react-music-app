@@ -1,0 +1,97 @@
+.Container {
+  width: 100%;
+  height: 4.5rem;
+  background-color: #151515;
+  color: white;
+  display: flex;
+  padding: 0.7rem;
+  justify-content: space-between;
+}
+
+.SongInfo {
+  flex: 2 1 0;
+  display: flex;
+  margin: 0.3rem
+}
+
+.SongInfo__Title {
+  font-size: 0.8rem;
+  margin: 0.1rem 0.4rem;
+}
+
+.SongInfo__Subtitle {
+  margin: 0.1rem 0.4rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #656565;
+}
+
+.SongInfo__Image {
+  /* width: 100%; */
+  height: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 0.1rem;
+}
+
+.Player {
+  flex: 2 1 0;
+  display: flex;
+  align-items: center;
+}
+
+.Player audio {
+  height: 2rem;
+  width: 100%;
+}
+
+
+.IconContainer {
+  flex: 1 1 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem 2rem;
+}
+
+.IconContainer>* {
+  cursor: pointer;
+}
+
+.PlaylistContainer {
+  position: absolute;
+  bottom: 3rem;
+  right: 2rem;
+  list-style: none;
+  background-color: rgb(86, 86, 86);
+  border-radius: 0.2rem;
+  width: 13rem;
+  max-height: 6rem;
+  overflow: auto;
+}
+
+.PlaylistContainer>li {
+  cursor: pointer;
+  padding: 0rem 0.2rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.PlaylistContainer>li:hover {
+  background-color: rgb(61, 61, 61);
+
+}
+
+.PlaylistContainer::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+.PlaylistContainer::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.PlaylistContainer::-webkit-scrollbar-thumb {
+  width: 0.4rem;
+  background-color: #919191;
+  border-radius: 0.5rem;
+}

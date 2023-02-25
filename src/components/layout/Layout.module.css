@@ -1,0 +1,30 @@
+.OuterContainer{
+  height: 87.4vh;
+}
+
+.InnerContainer {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.SidebarContainer {
+  flex: 1 1 10%;
+  height: 100%;
+}
+
+
+.ButtonContentWrapper {
+  flex: 1 1 80%;
+  position: relative;
+}
+
+.ButtonContainer {
+  padding: 1rem;
+  background-color: #1b1b1b;
+  display: flex;
+  justify-content: flex-end;
+  max-height: 5rem;
+  align-items: center;
+}
+

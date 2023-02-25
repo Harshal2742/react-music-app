@@ -1,0 +1,32 @@
+.Input {
+  width: 30%;
+  height: 2rem;
+  margin: 0rem 0.5rem;
+  padding: 0rem 0.8rem;
+  border-radius: 2rem;
+  font-size: 1rem;
+  border: 0.1rem solid rgb(255, 255, 255);
+  outline: none;
+}
+
+.AutoSearchCompleteList {
+  list-style: none;
+  width: 30%;
+  margin: 0rem 0.5rem;
+  background-color: #505050;
+  border-radius: 0.3rem;
+  overflow: hidden;
+  z-index: 10;
+  position: absolute;
+}
+
+.AutoSearchCompleteList>li {
+  cursor: pointer;
+  padding: 0.1rem 0.8rem;
+  border-bottom: 1px solid #404040;
+  background-color: #505050;
+}
+
+.AutoSearchCompleteList>li:hover {
+  background-color: #353535;
+}

@@ -1,0 +1,11 @@
+.GridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  margin: 1rem 0rem;
+}
+.GridTitle{
+  margin: 0.5rem 0rem;
+  color: white;
+  font-size: 1.2rem;
+}

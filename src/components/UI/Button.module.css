@@ -1,0 +1,24 @@
+.Button {
+  border-radius: 1rem;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border: 2px solid black;
+  cursor: pointer;
+  height: 2rem;
+  padding: 0.2rem 0.5rem;
+}
+
+.Button:hover {
+  color: #cccccc;
+}
+
+.Button__Flat {
+  background-color: white;
+  color: black;
+}
+
+.Button__Flat:hover {
+  background-color: #cccccc;
+  color: black;
+}
